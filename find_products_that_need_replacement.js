@@ -12,6 +12,7 @@ let customFieldsToBeUpdatedProducts = [];
 
 let allURLreplaceMents = [];
 
+
 for (let i = 0; i < products.length; i++) {
 
     const p = products[i];
