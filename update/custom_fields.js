@@ -18,15 +18,24 @@ let index = -1;
 
 for(const {prod_id, replacedConcatenatedCustomFields} of customFieldsToBeUpdatedProducts){
 
-	index++
 
-	if(index > 3) continue;
 
 	let url = `${API_PATH}catalog/products/${prodIDs[index]}`;
 
 	let chunks = splitStringIntoChunks(replacedConcatenatedCustomFields);
 
 	chunks = chunks.map(c => ({name: "short_description_new", value: c.toString()}))
+
+	if(chunks.length > 2){
+		index++;
+		
+	}else{
+		continue;
+	}
+
+	if(index > 3) continue;
+
+		console.log(index);
 
 	let response = await postRequest(url, {
 		"custom_fields": chunks

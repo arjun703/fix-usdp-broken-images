@@ -2,16 +2,17 @@
   {
     "id": 62863,
     "response": {
-      "status": 422,
-      "title": "The custom field with the name: short_description_new & value: <hr />\r\n<p>2005 - 2016 Ford F250 / F350 4WD</p>\r\n<hr />\r\n<p style=\"text-align: center;\"><img src=\"https://usdieselparts.com/product_images/3832b0221a93a29.jpg\" width=\"250\" height=\"135\" border=\"0\" alt=\"No Fine Print Warranty\"></p> already exists",
-      "type": "https://developer.bigcommerce.com/api-docs/getting-started/api-status-codes"
+      "status": 400,
+      "title": "Input is invalid",
+      "type": "https://developer.bigcommerce.com/api-docs/getting-started/api-status-codes",
+      "errors": {}
     }
   },
   {
     "id": 62862,
     "response": {
       "status": 422,
-      "title": "The custom field with the name: short_description_new & value: <hr />\r\n<p>2017 - 2022 Ford F250 / F350 4WD</p>\r\n<hr />\r\n<p style=\"text-align: center;\"><img src=\"https://usdieselparts.com/product_images/3832b0221a93a29.jpg\" width=\"250\" height=\"135\" border=\"0\" alt=\"No Fine Print Warranty\"></p> already exists",
+      "title": "The custom field with the name: short_description_new & value: <hr />\r\n<p>1994 - 2002 Dodge 3/4 & 1 Ton 2500/3500 4WD<br />\r\n1994 - 2001 Dodge 1/2 Ton 1500</p>\r\n<hr />\r\n<p>Kit comes with NX2 Shock Absorbers</p>\r\n<p style=\"text-align: center;\"><img src=\"https://usdieselparts.com/product_images/3832b0221 already exists",
       "type": "https://developer.bigcommerce.com/api-docs/getting-started/api-status-codes"
     }
   },
@@ -19,7 +20,7 @@
     "id": 62860,
     "response": {
       "status": 422,
-      "title": "The custom field with the name: short_description_new & value: <hr />\r\n<p>1994 - 2002 Dodge 3/4 & 1 Ton 2500/3500 4WD<br />\r\n1994 - 2001 Dodge 1/2 Ton 1500</p>\r\n<hr />\r\n<p>Kit comes with upgraded FOX 2.0 Shocks in place of the BDS</p>\r\n<p style=\"text-align: center;\"><img src=\"https://usdieselparts.com/ already exists",
+      "title": "The custom field with the name: short_description_new & value: <hr />\r\n<p>2014+ Ram 2500 4wd with the redesigned RADIUS ARM front suspension and coil spring rear suspension only. </p>\r\n<hr />\r\n<p>Will not fit 2013 and older models<br />\r\nWill not fit RAM 2500 Powerwagon models<br />\r\nNot compatible wit already exists",
       "type": "https://developer.bigcommerce.com/api-docs/getting-started/api-status-codes"
     }
   },
@@ -27,7 +28,7 @@
     "id": 62861,
     "response": {
       "status": 422,
-      "title": "The custom field with the name: short_description_new & value: <hr />\r\n<p>1994 - 2002 Dodge 3/4 & 1 Ton 2500/3500 4WD<br />\r\n1994 - 2001 Dodge 1/2 Ton 1500</p>\r\n<hr />\r\n<p>Kit comes with NX2 Shock Absorbers</p>\r\n<p style=\"text-align: center;\"><img src=\"https://usdieselparts.com/product_images/3832b0221 already exists",
+      "title": "The custom field with the name: short_description_new & value: <hr />\r\n2003 - 2009 Gen 3 Dodge 5.9L / 6.7L\r\n<hr />\r\n\r\n<ul class=\"leaders\">\r\n<li><span>SIZE:</span> <span>2-1/16\" (52.4mm)</span></li>\r\n<li><span>TYPE:</span> <span>Digital Stepper Motor</span></li>\r\n<li><span>RANGE:</span> <span>0-30 PSI</ already exists",
       "type": "https://developer.bigcommerce.com/api-docs/getting-started/api-status-codes"
     }
   }
